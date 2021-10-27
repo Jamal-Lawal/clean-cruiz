@@ -10,13 +10,16 @@
     font-family: 'Poppins', sans-serif;
     /* border-bottom: #e27481 2px solid; */
 }
-.navbar a :hover{
+/* .navbar a :hover{
     cursor: pointer;
-}
+} */
 .logo{
     margin-left: 70px;
     font-weight: 800px;
     color: #e27481;
+}
+.logo:hover{
+    cursor: pointer;
 }
 .navlist{
     color: #303d59;
@@ -25,6 +28,9 @@
 }
 .navlist a{
     margin: 20px;
+}
+.navlist a:hover{
+    cursor: pointer;
 }
 .btn{
     color: #e27481;
@@ -35,7 +41,7 @@
     border-radius: 20px;
     border: 2px solid #e27481
 }
-.navlist button :hover{
+.btn:hover{
     cursor: pointer;
     background-color: rgb(253, 249, 249);
     text-transform: capitalize;
@@ -53,6 +59,8 @@
     font-family: 'Poppins', sans-serif;
     color: #303d59;
     margin-top: 80px;
+    width: 40%;
+    height: 500px;
 }
 .mainheadtext h1{
     line-break: 0px;
@@ -62,17 +70,34 @@
     line-break: 70px;
 }
 .mainheadtext button{
-    background-color: #e27481;
+    /* background-color: #e27481;
     color: rgb(253, 249, 249);
     margin-top: 25px;
-    border: 1px solid #e27481
-
+    border: 1px solid #e27481; */
+    color: #fdfbfb;
+    padding: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: large;
+    border-radius: 20px;
+    border: 2px solid #e27481;
+    margin-top: 25px;
+    background-color: #e27481;
 }
-.mainheadtext button :hover{
+.btn1:hover{
     cursor: pointer;
+    background-color: #e27481;
 }
 .image{
-    width: 70%;
+    width: 60%;
+    height: 600px;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    /* padding-top: 80px;
+    padding-left: 30px;
+    margin-top: 30px; */
 }
 
 /* logos */
@@ -175,6 +200,9 @@ padding: 100px;
     cursor: pointer;
     border-radius: 10px;
     border: 1px solid #e27481;
+}
+.signup1 button:hover{
+    cursor: pointer;
 }
 
 /* Our Services */
@@ -335,7 +363,7 @@ padding: 100px;
     color: rgb(253, 249, 249);
     background-color: #e27481;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 30px;
     border: 1px solid #e27481;
     padding: 5px;
     padding-right: 30px;
